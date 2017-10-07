@@ -63,7 +63,7 @@ class App extends Component {
         <p>
           <button onClick={this.read}>read</button>
         </p>
-        <pre><code>{csv}</code></pre>
+        <textarea value={csv} />
       </div>
     )
   }

@@ -27,3 +27,8 @@
   to { transform: rotate(360deg); }
 }
 
+textarea {
+  height: 50vh;
+  width: 80%;
+  font: 20px/1.3 Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
